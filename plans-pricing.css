@@ -26,14 +26,19 @@ body{
 
 .row-pr-col{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    /*box-sizing: border-box;*/
+    /*align-items: center;*/
+    line-height: 23px;
     margin: 0 20%;
     font-weight: 400;
+
 }
 
 .colum{
     border: solid 1px red;
     margin: 0 15px;
+    
 }
 
 .colum-head {
@@ -44,4 +49,7 @@ body{
     margin-bottom: 30px;
 }
 
-
+#pricing > .row-pr-col >li::before{
+    content: ✔;
+    color: green;
+}
