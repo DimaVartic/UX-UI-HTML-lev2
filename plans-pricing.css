@@ -78,6 +78,10 @@ body{
     
 }
 
+#pricing>.row-pr-col>.colum>ul li{
+    line-height: 40px;
+}
+
 /*#pricing>.row-pr-col>.colum >ul li::before{
     content: ✔;
     color: green;
