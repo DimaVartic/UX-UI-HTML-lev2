@@ -36,8 +36,9 @@ body{
 }
 
 .colum{
-    border: solid 1px red;
+    border: solid 1px rgb(207, 203, 203);
     margin: 0 15px;
+    padding: 35px;
     
 }
 
@@ -46,10 +47,45 @@ body{
     padding-top: 20px;
     padding-bottom: 30px;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #444;
 }
 
-#pricing > .row-pr-col >li::before{
+.colum-head>p{
+    font-weight: 100;
+    font-size: small;  
+}
+
+.colum-head>h3{
+    font-weight: 800;
+    font-size:larger;
+    margin-bottom: 10px;
+}
+
+.price-footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.app-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 91, 234);
+    padding: 15px 20px;
+    border-radius: 25px;
+    
+}
+
+/*#pricing>.row-pr-col>.colum >ul li::before{
     content: ✔;
     color: green;
+}*/
+
+.check{
+    color: rgb(11, 247, 11);
+}
+
+.neg-check{
+    color: red;
 }
