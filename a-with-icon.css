@@ -1,0 +1,17 @@
+.btn{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+    background-image: url(cloud.svg);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 0.5em .25em ;
+
+    font-size: 1.5em; /* 1.5 x parent font-size */
+    padding: 0.25em 0.5em 0.25em 1.75em;   /* 0.5 x current font-size */
+
+    border: .05em solid black;
+    border-radius: 2em;
+   
+}
