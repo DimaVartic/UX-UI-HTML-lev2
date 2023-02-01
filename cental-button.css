@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.btn{
+    width: 60vmin;
+    margin-left: calc( (100vw - 60vmin) / 2 );
+    
+    height: 60vmin;
+    margin-top: calc( (100vh - 60vmin) / 2 );
+
+    border-radius: 100%;
+    font-size: 10vmin;
+
+    background-image: radial-gradient(circle,
+     rgb(8, 94, 94) 60%, white 80%, rgb(24, 151, 151));
+
+    color: white;
+    border: 0.5vmin solid rgb(42, 131, 131);
+    box-shadow: 0 0 2vmin 0vmin #222;
+
+}
+
+.btn:hover{
+    background-image: radial-gradient(circle,
+     rgb(17, 118, 118) 60%, white 80%, rgb(32, 159, 159));
+     cursor: pointer;
+}
+
+.btn_icon{
+   /* transform: translateX(-37vmin) translateY( 20vmin); */ /* DOWN*/
+   
+   transform: translateX(-37vmin) translateY( -13vmin);    /*UP*/
+
+  /* transform: translateX(-60vmin) translateY( 3vmin);  */  /* LEFT*/
+
+ /*transform: translateX(-15vmin) translateY( 2vmin);*/  /* RIGHT*/
+
+}
+
