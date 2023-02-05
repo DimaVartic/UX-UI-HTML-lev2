@@ -1,0 +1,64 @@
+/*
+:target
+em / rem -> HW1: read about it 
+   EM is an element relative to the font size of its parent.
+   REM is based upon the font-size value of the root element, which is the <html> element.
+
+variables
+calc()
+*/
+
+body{
+    /* variables */
+    --light-color:  rgb(38, 207, 142);
+    --dark-color: #333;
+    --text-color: #333;
+    --shadow-color:rgb(9, 97, 63);
+
+    font-size: 30px;
+}
+
+body{
+
+    background-color: var(--dark-color);
+}
+
+#bottom-menu{
+   /* border: 1px solid red;*/
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+
+    overflow: hidden;
+}
+
+#bottom-menu a {
+    background-color: var(--light-color);
+    display: block;
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+    border-radius: 100%;
+    box-shadow: 1px 1px var(--shadow-color);
+    color: var(--text-color);
+    /*
+    HW2: center text verically/horizontaly
+    Hw3: slow - effect
+    */
+    text-align: center;
+    /*vertical-align: middle;*/
+
+    transform: translateY( 
+        calc(3 * (2* 0.5em + 0.2em + 1em))
+        );
+    transition: 0.75s;
+
+}
+
+#bottom-menu:target a{
+    transform: translateY(0);
+}
+
+#bottom-menu li:last-child a{
+    margin-bottom: 0;
+}
+
