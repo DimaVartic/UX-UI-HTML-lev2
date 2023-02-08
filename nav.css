@@ -57,8 +57,10 @@ body{
 }
 
 #bottom-menu:target a{
-    transform: translateY(0);
+    transform: translateY(-0.125em);
 }
+
+
 
 #bottom-menu li:last-child a{
     margin-bottom: 0;
@@ -70,11 +72,11 @@ body{
     width: 2em;
     height: 2em;
     position: fixed;
-    bottom: 2em;
+    bottom: 2em ;
     right: 2em;
 
     padding: 0.2em;
-    margin: 0.2em 0.2em 0.11em 0.2em;
+    margin: 0.2em 0.2em 0.145em 0.2em;
     z-index: -1;
 }
 
@@ -106,4 +108,3 @@ body{
     100%{ transform: scale(2); opacity: 0; }
 
 }
-
