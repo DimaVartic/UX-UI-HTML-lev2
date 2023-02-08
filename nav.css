@@ -14,7 +14,7 @@ body{
     --dark-color: #333;
     --text-color: #333;
 
-    font-size: 30px;
+    font-size: 2em;
 }
 
 body{
@@ -69,13 +69,15 @@ body{
 .circle-animation {
     width: 2em;
     height: 2em;
-    position: absolute;
+    position: fixed;
     bottom: 2em;
     right: 2em;
 
     padding: 0.2em;
-    margin: 0.2em 0.2em 0.15em 0.2em;
+    margin: 0.2em 0.2em 0.11em 0.2em;
+    z-index: -1;
 }
+
 
 
 .circle-animation .circle {
@@ -84,6 +86,7 @@ body{
     border: 0.2em solid rgb(173, 247, 212);
     position: absolute;
     border-radius: 100%;
+    
 
     animation: wave 10s infinite;
 }
