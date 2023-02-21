@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 1em  auto;
+}
+
+/*#flight-booking {   
+    width: 1200px;
+}*/
+
+#advertisment {
+    width: 1240px;
+    height: 640px;
+}
+
+.news .news-img {
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .container{
+        width: 960px;
+    }
+}
+
+@media(max-width: 1024px){
+    .container {
+        width: 96%;
+    }
+
+    .news .news-img{
+        height: 45vh;
+        object-fit: cover;
+    }
+}
